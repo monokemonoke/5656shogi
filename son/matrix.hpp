@@ -1,3 +1,6 @@
+#ifndef MATRIX_HPP
+#define MATRIX_HPP
+
 #include <iostream>
 #include <array>
 
@@ -40,3 +43,5 @@ template<typename ElemT, int M, int N> struct matrix : std::array<ElemT, M*N> {
         return map_with_idx(mat, [=](int i, int x){ return i == where ? op(mat[i]) : mat[i]; });
     }
 };
+
+#endif

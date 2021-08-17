@@ -2,6 +2,7 @@
 #include <string>
 
 #include "./matrix.hpp"
+#include "./test.hpp"
 
 using std::cout;
 using std::endl;

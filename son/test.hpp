@@ -89,5 +89,6 @@ constexpr int update_at() {
 }
 
 template<int N> struct test {};
+auto you_dont_refer_to_me = test<rvi() + map() + map_with_idx() + update_at()>{};
 
 }
